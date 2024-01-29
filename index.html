@@ -10,9 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800;900&family=Rubik:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title  rel="icon" href="/images/logowhite2.svg">Gams & Lams | Painting and Decorating</title>
+    <script src="js/script.js" defer></script>
+    <title>Gams & Lams | Painting and Decorating</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg" width="10px" />
   </head>
-  <body class="">
+  <body>
     <!-- hero section  -->
     <section id="hero">
       <!-- hero container  -->
@@ -29,37 +31,53 @@
             <div class="group">
               <a href="#">About</a>
               <div
-                class="mx-1 group-hover:border-b group-hover:border-colorSecondary"
+                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
             <div class="group">
               <a href="#">services</a>
               <div
-                class="mx-1 group-hover:border-b group-hover:border-colorSecondary"
+                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
             <div class="group">
-              <a href="#">galelery</a>
+              <a href="#">gallery</a>
               <div
-                class="mx-1 group-hover:border-b group-hover:border-colorSecondary"
+                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
             <div class="group">
               <a href="#">contact</a>
               <div
-                class="mx-1 group-hover:border-b group-hover:border-colorSecondary"
+                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
           </div>
+
           <!-- hamburger btn  -->
+          <div class="md:hidden">
+            <button id="menu-btn"  class="z-40 block hamburger md:hidden focus:outline-none">
+              <span class="hamburger-top"></span>
+              <span class="hamburger-middle"></span>
+              <span class="hamburger-bottom"></span>
+            </button>
+          </div>
         </nav>
+
         <!-- mobile menu  -->
+        <div id="menu" class="absolute hidden top-0 bottom-0 left-0  flex-col self-end  w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-colorTertiary uppercase">
+          <a href="#">about</a>
+          <a href="#">services</a>
+          <a href="#">gallery</a>
+          <a href="#">contact</a>
+        </div>
 
         <div
-          class="max-w-2xl mt-32 mb-32 p-4 uppercase font-sans md:text-colorSecondary text-colorTertiary  font-bold text-4xl md:text-6xl md:p-10 md:m-32 md:mx-0"
+          class="max-w-2xl mt-32 mb-10 p-4 uppercase font-sans text-colorSecondary font-bold text-4xl md:text-6xl md:p-10 md:mt-32 md:mb-20 md:mx-0  bg-slate-50/40 border-4  border-red-500"
         >
           we illuminate your home with lively colors
         </div>
+     <div class="btn text-accentColor pt-3 uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1"> get estimate &RightArrow;</div>
       </div>
     </section>
   </body>

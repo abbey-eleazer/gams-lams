@@ -10,6 +10,7 @@ module.exports = {
         colorTertiary: '#5893D4',
         accentColor: '#CEDDEF'
        },
+      
     },
   },
   plugins: [],
