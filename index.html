@@ -24,18 +24,24 @@
           class="flex items-center justify-between p-4 mt-5 text-colorPrimary font-bold"
         >
           <!-- logo  -->
-          <a href="#"><img src="images/logo.png" alt="" class="w-2/5" /></a>
+          <a href="/index.html"><img src="images/logo.png" alt="" class="md:flex lg:w-6/12 md:w-32 w-2/5" /></a>
 
           <!-- menu  -->
-          <div class="hidden h-10 md:flex space-x-8 uppercase">
+          <div class="hidden h-10 md:flex md:items-center space-x-8 md:space-x-4  flex-shrink-0 uppercase">
             <div class="group">
-              <a href="#">About</a>
+              <a href="#">About us</a>
               <div
                 class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
             <div class="group">
-              <a href="#">services</a>
+              <a href="#">our services</a>
+              <div
+                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
+              ></div>
+            </div>
+            <div class="group">
+              <a href="#">our team</a>
               <div
                 class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
@@ -47,7 +53,7 @@
               ></div>
             </div>
             <div class="group">
-              <a href="#">contact</a>
+              <a href="#">contact us</a>
               <div
                 class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
@@ -66,10 +72,12 @@
 
         <!-- mobile menu  -->
         <div id="menu" class="absolute hidden top-0 bottom-0 left-0  flex-col self-end  w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-colorTertiary uppercase">
-          <a href="#">about</a>
-          <a href="#">services</a>
+          <a href="/index.html">home </a>
+          <a href="#">about us</a>
+          <a href="#">our services</a>
+          <a href="#">our team</a>
           <a href="#">gallery</a>
-          <a href="#">contact</a>
+          <a href="#">contact us</a>
         </div>
 
         <div
@@ -77,7 +85,14 @@
         >
           we illuminate your home with lively colors
         </div>
-     <div class="btn text-accentColor pt-3 uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1"> get estimate &RightArrow;</div>
+     <div class="btn text-accentColor pt-3 uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"> get estimate &RightArrow;</div>
+      </div>
+    </section>
+
+    <!-- section about  -->
+    <section id="about-us">
+      <div class="container mx-auto max-w-8xl px-6 py-10 md:px-0">
+        <h2 class="flex flex-col text-center mt-5 uppercase font-bold text-3xl text-colorPrimary">about us</h2>
       </div>
     </section>
   </body>
