@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background-color: #070d59;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 3rem;
+}
+
+.favicon {
+  background-image: url(../images/logowhite2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#hero {
+  background-image: url(../images/herodesk.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  #hero {
+    background-image: url(../images/heromob.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
