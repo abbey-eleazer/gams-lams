@@ -12,7 +12,12 @@
     />
     <script src="js/script.js" defer></script>
     <title>Gams & Lams | Painting and Decorating</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.jpg" width="10px" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/favicon.jpg"
+      width="10px"
+    />
   </head>
   <body>
     <!-- hero section  -->
@@ -24,10 +29,17 @@
           class="flex items-center justify-between p-4 mt-5 text-colorPrimary font-bold"
         >
           <!-- logo  -->
-          <a href="/index.html"><img src="images/logo.png" alt="" class="md:flex lg:w-6/12 md:w-32 w-2/5" /></a>
+          <a href="/index.html"
+            ><img
+              src="images/logo.png"
+              alt=""
+              class="md:flex lg:w-6/12 md:w-32 w-2/5"
+          /></a>
 
           <!-- menu  -->
-          <div class="hidden h-10 md:flex md:items-center space-x-8 md:space-x-4  flex-shrink-0 uppercase">
+          <div
+            class="hidden h-10 md:flex md:items-center space-x-8 md:space-x-4 flex-shrink-0 uppercase"
+          >
             <div class="group">
               <a href="#">About us</a>
               <div
@@ -46,12 +58,7 @@
                 class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
               ></div>
             </div>
-            <div class="group">
-              <a href="#">gallery</a>
-              <div
-                class="mx-1 group-hover:border-b-2 group-hover:border-red-500"
-              ></div>
-            </div>
+
             <div class="group">
               <a href="#">contact us</a>
               <div
@@ -62,7 +69,10 @@
 
           <!-- hamburger btn  -->
           <div class="md:hidden">
-            <button id="menu-btn"  class="z-40 block hamburger md:hidden focus:outline-none">
+            <button
+              id="menu-btn"
+              class="z-40 block hamburger md:hidden focus:outline-none"
+            >
               <span class="hamburger-top"></span>
               <span class="hamburger-middle"></span>
               <span class="hamburger-bottom"></span>
@@ -71,29 +81,228 @@
         </nav>
 
         <!-- mobile menu  -->
-        <div id="menu" class="absolute hidden top-0 bottom-0 left-0  flex-col self-end  w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-colorTertiary uppercase">
+        <div
+          id="menu"
+          class="absolute hidden top-0 bottom-0 left-0 flex-col self-end w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-colorTertiary uppercase"
+        >
           <a href="/index.html">home </a>
           <a href="#">about us</a>
           <a href="#">our services</a>
           <a href="#">our team</a>
-          <a href="#">gallery</a>
           <a href="#">contact us</a>
         </div>
 
         <div
-          class="max-w-2xl mt-32 mb-10 p-4 uppercase font-sans text-colorSecondary font-bold text-4xl md:text-6xl md:p-10 md:mt-32 md:mb-20 md:mx-0  bg-slate-50/40 border-4  border-red-500"
+          class="max-w-2xl mt-32 mb-10 p-4 uppercase font-sans text-colorSecondary font-bold text-4xl md:text-6xl md:p-10 md:mt-32 md:mb-20 md:mx-0 bg-slate-50/40 border-4 border-red-500"
         >
           we illuminate your home with lively colors
         </div>
-     <div class="btn text-accentColor pt-3 uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"> get estimate &RightArrow;</div>
+        <button
+          class="btn flex items-center justify-center text-accentColor  uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+        >
+          get estimate &RightArrow;
+        </button>
       </div>
     </section>
 
     <!-- section about  -->
     <section id="about-us">
-      <div class="container mx-auto max-w-8xl px-6 py-10 md:px-0">
-        <h2 class="flex flex-col text-center mt-5 uppercase font-bold text-3xl text-colorPrimary">about us</h2>
+      <div
+        class="container mx-auto max-w-8xl px-6 py-10 md:px-0 lg:mt-20 lg:mmb-32"
+      >
+        <div
+          class="flex flex-col lg:items-center lg:flex-row gap-10 lg:gap-20 mt-20"
+        >
+          <!-- about image container  -->
+
+          <!-- about image  -->
+          <img
+            src="images/about.png"
+            alt=""
+            class="w-full lg:w-2/4 shadow-md rounded-3xl"
+          />
+
+          <div class="text-lg md:text-xl full:mt-40">
+            <h2
+              class="flex flex-col w-full mt-12 uppercase font-bold text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-10 border-red-500 border-t-4 pt-4"
+            >
+              about us
+            </h2>
+            <p class="pt-12">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis minus sapiente numquam, ipsam tempora iusto placeat
+              laboriosam! Repellendus animi quia, repellat voluptas voluptatem
+              amet sed. Dolor saepe illo quibusdam quam hic! Necessitatibus aut
+              nulla vitae ducimus veritatis quisquam! Eos amet qui voluptate
+              minus accusantium sed quam molestias quia ex voluptatem sit omnis
+              soluta rerum doloremque explicabo quo reiciendis eius quasi ipsam
+              inventore eleniti hic cupiditate eveniet amet vero omnis culpa
+              sequi laborum explicabo dolorum earum magnam, mollitia, in unde,
+              repellendus voluptate aliquid.
+            </p>
+          </div>
+        </div>
       </div>
+    </section>
+
+    <!-- section services  -->
+    <section id="our-services" class="pt-12">
+      <div class="container mx-auto mt-12 mb-32">
+        <h2
+          class="flex flex-col w-1/2 mx-auto mt-5 uppercase font-bold text-center text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-32 border-red-500 border-t-4 pt-4"
+        >
+          our services
+        </h2>
+        <div class="container mx-auto px-6 pb-32 mt-12">
+          <!-- first row  -->
+          <div
+            class="grid  lg:gap-y-20 md:grid-cols-2 md:grid-row-3 xl:grid-cols-3 xl:grid-rows-2 place-items-center space-y-24 text-center  md:gap-x-8 md:space-y-0"
+          >
+            <!-- item 1  -->
+            <div
+              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 mb-0 shadow-md"
+            >
+              <div class="flex items-center justify-center flex-grow-0 mb-6 h-24 ">
+                <img src="images/paint-roller-solid.svg" alt="" class="w-12 h-12" />
+              </div>
+              <h3 class="text-xl font-bold uppercase">
+                interior / Painting
+              </h3>
+              <p class="max-w-md pb-10 pt-4">
+                The ability to use a smartphone, tablet or a computer to access
+                your account means your files follow you everywhere.
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20 "
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+
+            <!-- item 2  -->
+            <div
+            class="flex flex-col items-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+            >
+              <div class="flex items-center justify-center mb-6 h-24 ">
+                <img
+                  src="images/scroll-solid.svg"
+                  alt=""
+                  class="w-12 h-12"
+                  
+                />
+              </div>
+              <h3 class="text-xl font-bold uppercase">wallpaper & wallpanel</h3>
+              <p class="max-w-md pb-10 pt-4">
+                2-factor authentication and user controlled encryption are just
+                a couple of the security features we allow to help 
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+
+            <!-- item 3 -->
+            <div
+              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
+            >
+              <div class="flex items-center justify-center mb-6 h-24">
+                <img
+                  src="images/trowel-bricks-solid.svg"
+                  alt=""
+                  class="w-12"
+                  
+                />
+              </div>
+              <h3 class="text-xl font-bold uppercase">dry wall & pop</h3>
+              <p class="max-w-md pb-10 pt-4">
+                2-factor authentication and user controlled encryption are just
+                a couple of the security features we allow to help secure your
+                files.
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+
+            <!-- item 4  -->
+            <div
+              class="flex flex-col items-center space-y-2 md:w-/2 h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12 "
+            >
+              <div class="flex items-center justify-center mb-6 h-24">
+                <img src="images/chess-board-solid.svg" alt="" class="w-12 h-12" />
+              </div>
+              <h3 class="text-xl font-bold uppercase">
+                crown / window moulding
+              </h3>
+              <p class="max-w-md pb-10 pt-4">
+                The ability to use a smartphone, tablet or a computer to access
+                your account means your files follow you everywhere.you everywhere
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+
+            <!-- item 5  -->
+            <div
+              class="flex flex-col items-center space-y-2 md:w-/2 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
+            >
+              <div class="flex items-center justify-center mb-6 h-24">
+                <img
+                  src="images/screwdriver-wrench-solid.svg"
+                  class="w-12"
+                  alt=""
+                />
+              </div>
+              <h3 class="text-xl font-bold uppercase">
+                Interior decor finishes
+              </h3>
+              <p class="max-w-md pb-10 pt-4">
+                2-factor authentication and user controlled encryption are just
+                a couple of the security features we allow to help secure your
+                files.
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+
+            <!-- item 6  -->
+            <div
+              class="flex flex-col items-center space-y-2 md:w-/2 xl:w-10/12 border-2 rounded-lg p-5 shadow-md pb-12"
+            >
+              <div class="flex items-center justify-center mb-6 h-24">
+                <img src="images/film-solid.svg" alt="" class="w-12" />
+              </div>
+              <h3 class="text-xl font-bold uppercase">
+                Security you can trust
+              </h3>
+              <p class="max-w-md pb-10 pt-4">
+                2-factor authentication and user controlled encryption are just
+                a couple of the security features we allow to help secure your
+                files.
+              </p>
+              <button
+                class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              >
+                view more &RightArrow;
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <!-- features container -->
     </section>
   </body>
 </html>
