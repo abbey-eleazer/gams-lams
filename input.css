@@ -79,3 +79,7 @@
 .open .hamburger-middle {
   display: none;
 }
+
+.round {
+  border-radius: 50%;
+}
