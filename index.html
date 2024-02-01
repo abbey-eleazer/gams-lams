@@ -83,13 +83,13 @@
         <!-- mobile menu  -->
         <div
           id="menu"
-          class="absolute hidden top-0 bottom-0 left-0 flex-col self-end w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-colorTertiary uppercase"
+          class="absolute hidden top-0 bottom-0 left-0 flex-col self-end w-full h-2/3 py-1 pt-40 pl-12 space-y-3 text-lg font-bold text-colorPrimary bg-red-400 uppercase"
         >
-          <a href="/index.html">home </a>
-          <a href="#">about us</a>
-          <a href="#">our services</a>
-          <a href="#">our team</a>
-          <a href="#">contact us</a>
+          <a href="/index.html" class="hover:text-white">home </a>
+          <a href="#about-us" class="hover:text-white">about us</a>
+          <a href="#our-services" class="hover:text-white">our services</a>
+          <a href="#our-team" class="hover:text-white">our team</a>
+          <a href="#contact" class="hover:text-white">contact us</a>
         </div>
 
         <div
@@ -122,9 +122,9 @@
             class="w-full lg:w-2/4 shadow-md rounded-3xl"
           />
 
-          <div class="text-lg md:text-xl full:mt-40">
+          <div class="flex flex-col mx-auto w-3/4 text-lg md:text-xl full:mt-40">
             <h2
-              class="flex flex-col w-full mt-12 uppercase font-bold text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-10 border-red-500 border-t-4 pt-4"
+              class="flex flex-col w-full mt-12 uppercase font-bold text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-10 border-red-500 border-t-4 pt-4 text-center"
             >
               about us
             </h2>
@@ -132,10 +132,7 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Perferendis minus sapiente numquam, ipsam tempora iusto placeat
               laboriosam! Repellendus animi quia, repellat voluptas voluptatem
-              amet sed. Dolor saepe illo quibusdam quam hic! Necessitatibus aut
-              nulla vitae ducimus veritatis quisquam! Eos amet qui voluptate
-              minus accusantium sed quam molestias quia ex voluptatem sit omnis
-              soluta rerum doloremque explicabo quo reiciendis eius quasi ipsam
+              ta rerum doloremque explicabo quo reiciendis eius quasi ipsam
               inventore eleniti hic cupiditate eveniet amet vero omnis culpa
               sequi laborum explicabo dolorum earum magnam, mollitia, in unde,
               repellendus voluptate aliquid.
@@ -147,20 +144,20 @@
 
     <!-- section services  -->
     <section id="our-services" class="pt-12">
-      <div class="container mx-auto mt-12 mb-32">
+      <div class="container mx-auto mt-12 mb-10 md:mb-32">
         <h2
           class="flex flex-col w-3/4 md:w-2/4 mx-auto mt-5 uppercase font-bold text-center text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-32 border-red-500 border-t-4 pt-4"
         >
           our services
         </h2>
-        <div class="container mx-auto px-6 pb-32 mt-12">
+        <div class="container mx-auto px-6 pb-12 md:pb-32 mt-12">
           <!-- first row  -->
           <div
-            class="grid lg:gap-y-20 md:grid-cols-2 md:grid-row-3 xl:grid-cols-3 xl:grid-rows-2 place-items-center space-y-24 text-center md:gap-x-8 md:space-y-12"
+            class="grid lg:gap-y-20 md:grid-cols-2 md:grid-row-3 xl:grid-cols-3 xl:grid-rows-2 place-items-center space-y-12 text-center md:gap-x-8 md:space-y-12"
           >
             <!-- item 1  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 mb-0 shadow-md md:mt-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 mb-0 shadow-md md:mt-12"
             >
               <div
                 class="flex items-center justify-center flex-grow-0 mb-6 h-24"
@@ -185,7 +182,7 @@
 
             <!-- item 2  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
               <div class="flex items-center justify-center mb-6 h-24">
                 <img src="images/scroll-solid.svg" alt="" class="w-12 h-12" />
@@ -204,7 +201,7 @@
 
             <!-- item 3 -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
             >
               <div class="flex items-center justify-center mb-6 h-24">
                 <img src="images/trowel-bricks-solid.svg" alt="" class="w-12" />
@@ -224,7 +221,7 @@
 
             <!-- item 4  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 md:h-/10 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
             >
               <div class="flex items-center justify-center mb-6 h-24">
                 <img
@@ -249,7 +246,7 @@
 
             <!-- item 5  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 xl:w-10/12 border-2 p-5 rounded-lg shadow-md pb-12"
             >
               <div class="flex items-center justify-center mb-6 h-24">
                 <img
@@ -275,7 +272,7 @@
 
             <!-- item 6  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 xl:w-10/12 border-2 rounded-lg p-5 shadow-md pb-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 xl:w-10/12 border-2 rounded-lg p-5 shadow-md pb-12"
             >
               <div class="flex items-center justify-center mb-6 h-24">
                 <img src="images/film-solid.svg" alt="" class="w-12" />
@@ -304,11 +301,11 @@
         <div class="container mx-auto px-6 pb-32 mt-12">
           <!-- first row  -->
           <div
-            class="grid lg:gap-y-20 md:grid-cols-2 md:grid-row-3 xl:grid-cols-3 xl:grid-rows-2 place-items-center space-y-24 text-center md:gap-x-8 md:space-y-12"
+            class="grid lg:gap-y-20 md:grid-cols-2 md:grid-row-3 xl:grid-cols-3 xl:grid-rows-2 place-items-center space-y-8 text-center md:gap-x-8 md:space-y-12"
           >
             <!-- item 1  -->
             <div
-              class="flex flex-col items-center space-y-2 md:w-/2 md:h-/10 xl:w-10/12 p-5 pb-12"
+              class="flex flex-col items-center space-y-2 w-3/4 md:w-/2 md:h-/10 xl:w-10/12 p-5 pb-12"
             >
               <h2
                 class="flex flex-col mx-auto mt-5 uppercase font-bold text-center text-colorPrimary text-3xl md:text-5xl md:mt-10 md:mb-32 border-red-500 border-t-4 pt-4"
@@ -319,9 +316,9 @@
 
             <!-- item 2  -->
             <div
-              class="flex flex-col justify-center-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col justify-center-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
-              <div class="flex items-center justify-center p-12">
+              <div class="flex items-center justify-center p-8 md:p-12">
                 <img src="images//game.jpg" alt="" class="w-64 rounded-full" />
               </div>
               <h3 class="text-xl font-bold uppercase text-colorPrimary">
@@ -332,7 +329,7 @@
 
             <!-- item 3 -->
             <div
-              class="flex flex-col justify-center-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col justify-center-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
               <div class="flex items-center justify-center p-12">
                 <img src="images/img.jpg" alt="" class="w-64 rounded-full" />
@@ -345,7 +342,7 @@
 
             <!-- item 5  -->
             <div
-              class="flex flex-col justify-center-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col justify-center-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
               <div class="flex items-center justify-center p-12">
                 <img src="images/afobu.jpg" alt="" class="w-64 rounded-full" />
@@ -358,7 +355,7 @@
 
             <!-- item 6  -->
             <div
-              class="flex flex-col justify-center-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col justify-center-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
               <div class="flex items-center justify-center p-12">
                 <img
@@ -373,7 +370,7 @@
               <p class="text-lg uppercase font-semibold">decorator</p>
             </div>
             <div
-              class="flex flex-col justify-center-center space-y-2 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
+              class="flex flex-col justify-center-center space-y-2 w-3/4 md:w-/2 md:h/10 xl:w-10/12 border-2 p-5 rounded-lg pb-12 shadow-md"
             >
               <div class="flex items-center justify-center p-12">
                 <img src="images/frexzy.jpg" alt="" class="w-64 rounded-full" />
@@ -389,12 +386,12 @@
     </section>
 
     <!-- contact us  -->
-    <section id="contact" class="pt-12">
-      <div class="container flex flex-col-reverse md:flex-row items-center mx-auto mt-12 mb-32 gap-10">
+    <section id="contact" class="md:pt-12">
+      <div class="container flex flex-col-reverse md:flex-row items-center mx-auto mt-12 mb-32 md:gap-10">
         <div
-          class="container flex flex-col my-auto py-12 items-center mx-auto w-3/4 mt-12 rounded-3xl shadow-lg border-4 border-red-500 "
+          class="container flex flex-col my-auto py-8 md:py-12 items-center mx-auto w-3/4 mt-12 rounded-3xl shadow-lg md:border-4 border-2 border-red-500 "
         >
-          <form class="flex flex-col w-3/4 space-y-10 mt-0">
+          <form class="flex flex-col w-3/4 space-y-4 md:space-y-10 mt-0 ">
             <input
               type="text"
               name="firstname"
@@ -429,7 +426,7 @@
               class="bg-slate-100 rounded-2xl p-8 text-xl outline-none cursor-pointer text-colorPrimary"
             ></textarea>
             <button
-              class="btn flex items-center justify-center text-accentColor uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
+              class="btn flex items-center justify-center mx-auto text-white uppercase hover:bg-colorSecondary shadow-md hover:translate-y-1 md:mb-20"
             >
               submit &RightArrow;
             </button>
@@ -437,10 +434,10 @@
         </div>
 
         <div
-          class="container flex flex-col justify-center items-center mx-auto px-6 pb-32 mt-12"
+          class="container flex flex-col justify-center items-center mx-auto px-6 pb-12 md:pb-32 mt-0 md:mt-12"
         >
           <h2
-            class="flex flex-col mx-auto mt-5 uppercase font-bold text-center text-colorPrimary text-3xl md:text-5xl md:mt-2 md:mb-32 border-red-500 border-t-4 pt-4"
+            class="flex flex-col mx-auto mt-5 uppercase font-bold text-center text-colorPrimary text-3xl md:text-5xl md:mt-2 mb-10 md:mb-32 border-red-500 border-t-4 pt-4"
           >
             contact us
           </h2>
