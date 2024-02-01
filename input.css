@@ -4,18 +4,13 @@
 
 .btn {
   background-color: #070d59;
-  width: 15rem;
+  width: 12rem;
   height: 3.2rem;
   border-radius: 3rem;
   text-align: center;
   cursor:pointer;
 }
 
-.favicon {
-  background-image: url(../images/logowhite2.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 #hero {
   background-image: url(../images/herodesk.png);
@@ -78,8 +73,4 @@
 
 .open .hamburger-middle {
   display: none;
-}
-
-.round {
-  border-radius: 50%;
 }
